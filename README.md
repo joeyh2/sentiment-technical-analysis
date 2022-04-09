@@ -23,6 +23,10 @@ Used to predict the medium term performance of a stock based on a combination of
 8. Utilize API call to gather technical and price information that relates to the specific ticker
 9. Merge the data frame that called information from Alpacas API with the dataframe that called information from News API to create a consolidated dataframe
 
+## Notes on Execution
+
+> We realized that we were limited by our resources to preform to merge a dataframe of technical indicators and news sentiment. The issue was the news api could only take in a month worth of data, but we were hoping to train on more. To solve this issue, we switched directions to utilize google trends over news sentiment. We preformed a google trends search, of 3 trends relevant to the stock of interest, as we felt this could also reflect the current sentiment of the stock.
+
 ## Technical Analyses Script:
 
 Yahoo finance API call (yfinance)
@@ -47,7 +51,13 @@ Runs a deep neural network on the merged dataframe to predict the ticker’s nex
 ## Questions Asked of Data
 Is the sentiment technical analysis model profitable?
 
-## Analysis
+## Model Analysis
+
+Closing Prices
+![close_plot](Images/close_plot.png)
+
+Trend Results
+![trend_plot](Images/trend_plot.png)
 
 ### Technical Model
 
@@ -65,16 +75,16 @@ Technical Predictions Plot
 
 ### Technical AND Trend Model
 
-Closing Prices
+Technical and trend model Loss
 ![tech_trend_loss](Images/tech_trend_loss.png)
 
-Closing Prices
+Technical and trend model Evaluate (Loss and MSE)
 ![tech_trend_model_evauluate](Images/tech_trend_model_evaluate.png)
 
-Closing Prices
+Technical and trend model Predictions DataFrame
 ![tech_trend_pred_df](Images/tech_trend_pred_df.png)
 
-Closing Prices
+Technical and trend Predictions Plot
 ![tech_trend_pred_plot](Images/tech_trend_pred_plot.png)
 
 ## Limitations
