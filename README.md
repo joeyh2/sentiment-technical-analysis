@@ -88,4 +88,9 @@ Predictions Plot
 
 
 ## Limitations
-If you are using a Mac M1 chip you may need to run the tensorflow model in Google Colab.
+> If you are using a Mac M1 chip you may need to run the tensorflow model in Google Colab.
+> 
+> Although Google Trends may measure some stock sentiment, it does not measure all the sentiment. It would be beneficial to include more sources such as social media networks like Twitter.
+> 
+> As sentiment analysis is still hard the score, measuring number of mentions is stronger for our purposes than relying on Sentiment Analysis engines such as Vader.
+
