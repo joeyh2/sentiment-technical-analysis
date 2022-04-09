@@ -26,7 +26,7 @@ Used to predict the medium term performance of a stock based on a combination of
 
 ## Notes on Execution
 
-> We realized that we were limited by our resources to preform to merge a dataframe of technical indicators and news sentiment. The issue was the news api could only take in a month worth of data, but we were hoping to train on more. To solve this issue, we switched directions to utilize google trends over news sentiment. We preformed a google trends search, of 3 trends relevant to the stock of interest, as we felt this could also reflect the current sentiment of the stock.
+> We realized that we were limited by our resources to preform a merge on the dataframes of technical indicators and news sentiment. The issue was the news api could only take in a month's worth of data, but we were hoping to train on more. To solve this issue, we switched directions to utilize google trends over news sentiment. We preformed a google trends search, of 3 trends relevant to the stock of interest, as we felt this could also reflect the current sentiment of the stock.
 
 ## Technical Analyses Script:
 
