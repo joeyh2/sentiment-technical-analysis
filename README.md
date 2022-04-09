@@ -1,6 +1,4 @@
 # Sentiment Technical Analysis
-
-Terminator
 ![terminator](Images/download.jpg)
 
 ## Objective
