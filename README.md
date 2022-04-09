@@ -48,7 +48,34 @@ Runs a deep neural network on the merged dataframe to predict the ticker’s nex
 Is the sentiment technical analysis model profitable?
 
 ## Analysis
-Compare the performance of the three models and determine which is the best performing model
+
+### Technical Model
+
+Technical Model Loss
+![tech_plot_loss](Images/tech_plot_loss.png)
+
+Technical Model Evaluate (Loss and MSE)
+![tech_model_evauluate](Images/tech_model_evaluate.png)
+
+Technical Model Predictions DataFrame
+![tech_pred_df](Images/tech_pred_df.png)
+
+Technical Predictions Plot
+![Tech_pred_plot](Images/tech_pred_plot.png)
+
+### Technical AND Trend Model
+
+Closing Prices
+![tech_trend_loss](Images/tech_trend_loss.png)
+
+Closing Prices
+![tech_trend_model_evauluate](Images/tech_trend_model_evaluate.png)
+
+Closing Prices
+![tech_trend_pred_df](Images/tech_trend_pred_df.png)
+
+Closing Prices
+![tech_trend_pred_plot](Images/tech_trend_pred_plot.png)
 
 ## Limitations
 If you are using a Mac M1 chip you may need to run the tensorflow model in Google Colab.
