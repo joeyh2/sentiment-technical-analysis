@@ -55,38 +55,37 @@ Is the sentiment technical analysis model profitable?
 ## Model Analysis
 
 Closing Prices
-![close_plot](Images/close_plot.png)
+<img src="Images/close_plot.png">
 
 Trend Results
 ![trend_plot](Images/trend_plot.png)
 
-### Technical Model
+### Technical Model vs Technical & Trend Model
 
-Technical Model Loss
-![tech_plot_loss](Images/tech_plot_loss.png)
+<p align="center">
+  <img src="Images/tech_plot_loss.png" width="500" height="400" />
+  <img src="Images/tech_trend_loss.png" width="500" height="400" /> 
+</p>
 
-Technical Model Evaluate (Loss and MSE)
-![tech_model_evauluate](Images/tech_model_evaluate.png)
+Model Evaluate (Loss and MSE)
+<p align="center">
+  <img src="Images/tech_model_evaluate.png" width="500" height="100"/>
+  <img src="Images/tech_trend_model_evaluate.png" width="500" height="100"/> 
+</p>
 
-Technical Model Predictions DataFrame
-![tech_pred_df](Images/tech_pred_df.png)
+Model Predictions DataFrame
+<p align="center">
+  <img src="Images/tech_pred_df.png" width="500" height="200"/>
+  <img src="Images/tech_trend_pred_df.png" width="500" height="200"/> 
+</p>
 
-Technical Predictions Plot
-![Tech_pred_plot](Images/tech_pred_plot.png)
 
-### Technical AND Trend Model
+Predictions Plot
+<p align="center">
+  <img src="Images/tech_pred_plot.png" width="500" height="400"/>
+  <img src="Images/tech_trend_pred_plot.png" width="500" height="400"/> 
+</p>
 
-Technical and trend model Loss
-![tech_trend_loss](Images/tech_trend_loss.png)
-
-Technical and trend model Evaluate (Loss and MSE)
-![tech_trend_model_evauluate](Images/tech_trend_model_evaluate.png)
-
-Technical and trend model Predictions DataFrame
-![tech_trend_pred_df](Images/tech_trend_pred_df.png)
-
-Technical and trend Predictions Plot
-![tech_trend_pred_plot](Images/tech_trend_pred_plot.png)
 
 ## Limitations
 If you are using a Mac M1 chip you may need to run the tensorflow model in Google Colab.
