@@ -1,4 +1,4 @@
-# Sentiment Technical Analysis
+# Sentiment & Technical Analysis
 ![terminator](Images/download.jpg)
 
 #### Contributors: Joseph Hagemann, Emilio Cubero, Preston Kirschner
